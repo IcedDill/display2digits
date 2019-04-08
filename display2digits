@@ -1,0 +1,267 @@
+from gpiozero import LED
+from time import sleep
+seg1 = LED(21)
+seg2 = LED(20)
+seg4 = LED(26)
+seg5 = LED(16)
+seg6 = LED(19)
+seg7 = LED(13)
+seg9 = LED(12)
+seg10 = LED(6)
+seg1b = LED(5)
+seg2b = LED(1)
+seg4b = LED(0)
+seg5b = LED(7)
+seg6b = LED(8)
+seg7b = LED(11)
+seg9b = LED(25)
+seg10b = LED(9)
+#seg1.on()()
+#seg2.on()()
+#seg4.on()
+#seg5.on()()
+#seg6.on()
+#seg7.on()()
+#seg9.on()()
+#seg10.on()()
+  
+def display1():
+    seg4.on()
+    seg6.on()
+    return
+def display2():
+    seg7.on()
+    seg6.on()
+    seg10.on()
+    seg1.on()
+    seg2.on()
+    return
+def display3():
+    seg7.on()
+    seg6.on()
+    seg10.on()
+    seg4.on()
+    seg2.on()
+    return
+def display4():
+    seg9.on()
+    seg10.on()
+    seg6.on()
+    seg4.on()
+    return
+def display5():
+    seg7.on()
+    seg9.on()
+    seg10.on()
+    seg4.on()
+    seg2.on()
+    return
+def display6():
+    seg7.on()
+    seg9.on()
+    seg1.on()
+    seg2.on()
+    seg4.on()
+    seg10.on()
+    return
+def display7():
+    seg7.on()
+    seg6.on()
+    seg4.on()
+    return
+def display8():
+    seg7.on()
+    seg6.on()
+    seg9.on()
+    seg10.on()
+    seg1.on()
+    seg2.on()
+    seg4.on()
+    return
+def display9():
+    seg9.on()
+    seg7.on()
+    seg6.on()
+    seg10.on()
+    seg4.on()
+    return
+def display1b():
+    seg4b.on()
+    seg6b.on()
+    return
+def display2b():
+    seg7b.on()
+    seg6b.on()
+    seg10b.on()
+    seg1b.on()
+    seg2b.on()
+    return
+def display3b():
+    seg7b.on()
+    seg6b.on()
+    seg10b.on()
+    seg4b.on()
+    seg2b.on()
+    return
+def display4b():
+    seg9b.on()
+    seg10b.on()
+    seg6b.on()
+    seg4b.on()
+    return
+def display5b():
+    seg7b.on()
+    seg9b.on()
+    seg10b.on()
+    seg4b.on()
+    seg2b.on()
+    return
+def display6b():
+    seg7b.on()
+    seg9b.on()
+    seg1b.on()
+    seg2b.on()
+    seg4b.on()
+    seg10b.on()
+    return
+def display7():
+    seg7b.on()
+    seg6b.on()
+    seg4b.on()
+    return
+def display8():
+    seg7b.on()
+    seg6b.on()
+    seg9b.on()
+    seg10b.on()
+    seg1b.on()
+    seg2b.on()
+    seg4b.on()
+    return
+def display9():
+    seg9b.on()
+    seg7b.on()
+    seg6b.on()
+    seg10b.on()
+    seg4b.on()
+    return
+
+def displaya():
+    seg7.on()
+    seg6.on()
+    seg10.on()
+    seg1.on()
+    seg4.on()
+    seg9.on()
+    return
+def displayb():
+    seg1.on()
+    seg2.on()
+    seg4.on()
+    seg5.on()
+    seg6.on()
+    seg7.on()
+    seg9.on()
+    seg10.on()
+    return
+def displayc():
+    seg7.on()
+    seg9.on()
+    seg1.on()
+    seg2.on()
+    return
+def displayd():
+    seg7.on()
+    seg9.on()
+    seg1.on()
+    seg2.on()
+    seg4.on()
+    seg6.on()
+    return
+def displaye():
+    seg7.on()
+    seg9.on()
+    seg10.on()
+    seg1.on()
+    seg2.on()
+    return
+
+def displayf():
+    seg1.on()
+    seg10.on()
+    seg9.on()
+    seg7.on()
+    return
+def displayg():
+    seg7.on
+    seg9.on
+    seg10.on
+    seg6.on
+    seg4.on
+    seg2.on
+    return
+def displayh():
+    seg9.on
+    seg10.on
+    seg1.on
+    seg4.on
+    return
+def displayH():
+    seg1.on
+    seg10.on
+    seg4.on
+    seg6.on
+    seg9.on
+    return
+def alloff():
+    seg1.off()
+    seg2.off()
+    seg4.off()
+    seg5.off()
+    seg6.off()
+    seg7.off()
+    seg9.off()
+    seg10.off()
+    return
+
+x = input('Whats yo numbo')
+first = x[0]
+second = x[1]
+if first == "1":
+    display1()
+elif first = "2":
+    display2()
+elif first = "3":
+    display3()
+elif first = "4":
+    display4()
+elif first = "5":
+    display5()
+elif first = "6":
+    display6()
+elif first = "7":
+    display7()
+elif first = "8":
+    display8()
+elif first = "9":
+    display9()
+
+if second == "1":
+    display1b()
+elif second = "2":
+    display2b()
+elif second = "3":
+    display3b()
+elif second = "4":
+    display4b()
+elif second = "5":
+    display5b()
+elif second = "6":
+    display6b()
+elif second = "7":
+    display7b()
+elif second = "8":
+    display8b()
+elif second = "9":
+    display9b()
+
